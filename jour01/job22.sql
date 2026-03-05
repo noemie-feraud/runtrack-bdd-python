@@ -1,0 +1,1 @@
+SELECT * FROM etudianty WHERE age = (SELECT MIN(age) FROM etudiant);
