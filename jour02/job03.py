@@ -19,3 +19,5 @@ print(df1)
 
 print("--- DATAFRAME SALLE ---")
 print(df2)
+
+connection.close()
