@@ -8,7 +8,7 @@ connection = mysql.connector.connect(
 )
 
 cursor = connection.cursor()
-cursor.execute("SELECT SUM(superficie) FROM etage")
+cursor.execute("SELECT SUM(superfie) FROM etage")
 resultat = cursor.fetchone()[0]
 print(f"La superficie de La Plateforme est de {resultat} m2")
 
